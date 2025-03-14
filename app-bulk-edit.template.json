@@ -16,13 +16,13 @@
     "modules": [
       {
         "name": "mod-bulk-operations",
-        "version": "latest"
+        "version": "2.2.0"
       }
     ],
     "uiModules": [
       {
         "name": "folio_bulk-edit",
-        "version": "latest"
+        "version": "5.0.0"
       }
     ]
   }
