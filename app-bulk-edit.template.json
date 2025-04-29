@@ -1,28 +1,24 @@
 {
-    "name": "${project.name}",
-    "version": "${project.version}",
-    "description": "${project.description}",
-    "platform": "complete",
-    "dependencies": [
-      {
-        "name": "app-platform-complete",
-        "version": "^2.1.0-SNAPSHOT"
-      },
-      {
-        "name": "app-fqm",
-        "version": "^1.1.0-SNAPSHOT"
-      }
-    ],
-    "modules": [
-      {
-        "name": "mod-bulk-operations",
-        "version": "latest"
-      }
-    ],
-    "uiModules": [
-      {
-        "name": "folio_bulk-edit",
-        "version": "latest"
-      }
-    ]
-  }
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies":   [
+        {
+      "name": "app-platform-complete",
+      "version": "^2.1.0-SNAPSHOT"
+    },
+        {
+      "name": "app-fqm",
+      "version": "^1.1.0-SNAPSHOT"
+    }
+  ],
+  "modules": [  {
+    "name": "mod-bulk-operations",
+    "version": "2.2.4"
+  }],
+  "uiModules": [  {
+    "name": "folio_bulk-edit",
+    "version": "5.0.2"
+  }]
+}
