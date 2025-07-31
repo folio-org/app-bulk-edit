@@ -1,0 +1,24 @@
+{
+  "name": "app-bulk-edit",
+  "version": "1.2.0-SNAPSHOT.1000",
+  "description": "Application descriptor for the FOLIO bulk-edit application",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-fqm",
+      "version": "^1.2.0-SNAPSHOT"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-bulk-operations",
+      "version": "2.3.0-SNAPSHOT.444"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_bulk-edit",
+      "version": "5.0.109900000000552"
+    }
+  ]
+}
