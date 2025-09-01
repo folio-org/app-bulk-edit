@@ -11,6 +11,10 @@
       {
         "name": "app-fqm",
         "version": "^1.1.0-SNAPSHOT"
+      },
+      {
+        "name": "app-data-import",
+        "version": "^1.0.0-SNAPSHOT"
       }
     ],
     "modules": [
