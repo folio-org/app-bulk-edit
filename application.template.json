@@ -1,47 +1,47 @@
 {
-    "name": "${project.name}",
-    "version": "${project.version}",
-    "description": "${project.description}",
-    "platform": "complete",
-    "dependencies": [
-      {
-        "name": "app-fqm",
-        "version": "^1.2.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-search",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-marc-storage",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-inventory",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-data-import",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      }
-    ],
-    "modules": [
-      {
-        "name": "mod-bulk-operations",
-        "version": "latest",
-        "preRelease": "only"
-      }
-    ],
-    "uiModules": [
-      {
-        "name": "folio_bulk-edit",
-        "version": "latest",
-        "preRelease": "only"
-      }
-    ]
-  }
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-fqm",
+      "version": "^VERSION_^1.2.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-search",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-marc-storage",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-inventory",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-data-import",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-bulk-operations",
+      "version": "^VERSION_latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_bulk-edit",
+      "version": "^VERSION_latest",
+      "preRelease": "false"
+    }
+  ]
+}
