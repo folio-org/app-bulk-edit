@@ -33,7 +33,7 @@
     "modules": [
       {
         "name": "mod-bulk-operations",
-        "version": "2.4.0-SNAPSHOT.2664",
+        "version": "2.4.0-SNAPSHOT.2654",
         "preRelease": "only"
       }
     ],
