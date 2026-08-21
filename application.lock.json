@@ -1,12 +1,12 @@
 {
-  "id" : "app-bulk-edit-2.1.0-SNAPSHOT.100200000011361",
+  "id" : "app-bulk-edit-2.1.0-SNAPSHOT.100200000011442",
   "name" : "app-bulk-edit",
-  "version" : "2.1.0-SNAPSHOT.100200000011361",
+  "version" : "2.1.0-SNAPSHOT.100200000011442",
   "description" : "Application descriptor for the FOLIO bulk-edit application",
   "modules" : [ {
-    "id" : "mod-bulk-operations-2.4.0-SNAPSHOT.2727",
+    "id" : "mod-bulk-operations-2.4.0-SNAPSHOT.2739",
     "name" : "mod-bulk-operations",
-    "version" : "2.4.0-SNAPSHOT.2727"
+    "version" : "2.4.0-SNAPSHOT.2739"
   } ],
   "uiModules" : [ {
     "id" : "folio_bulk-edit-5.1.1099000000001200",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-bulk-operations-2.4.0-SNAPSHOT.2727",
+    "id" : "mod-bulk-operations-2.4.0-SNAPSHOT.2739",
     "name" : "Bulk operations API.",
     "requires" : [ {
       "id" : "login",
@@ -434,7 +434,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-bulk-operations:2.4.0-SNAPSHOT.2727",
+      "dockerImage" : "folioci/mod-bulk-operations:2.4.0-SNAPSHOT.2739",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
